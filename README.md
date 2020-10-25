@@ -18,7 +18,7 @@ As you see: this is tedious. Read this 5-min [tutorial](ssh-proxy.md) to simplif
 
 ### (Optional) Run benchmarks on your local Linux machine instead of granger1? 
 
-Make sure your machine has more than a dozen of cores (not "threads". e.g. Ryzen 9, Threadripper, some Intel i9). Recommended OS: Ubuntu 18.04 or 20.04. Other Linux distros should work as well. Windows: native compliation should work but need adaptation. WSL not recommended. 
+Make sure your machine has more than a dozen of cores (not "threads". e.g. Ryzen 9, Threadripper, some Intel i9). Recommended OS: Ubuntu 18.04 or 20.04. Other Linux distros should work as well. Windows: native compilation should work but need adaptation. WSL not recommended. 
 
 ```
 sudo apt install build-essential
@@ -32,7 +32,7 @@ pip3 install bokeh
 
 [CMake](cmake.md)
 
-(I intentionally avoid giving a "quickstart" here to make sure you read & experiment)
+(I intentionally avoid giving a "quickstart" to make sure you read & experiment)
 
 ## Set up profiler/tracer
 
@@ -43,10 +43,10 @@ pip3 install bokeh
 ## Experiments
 
 * **Exp1: Races & Synchronization** 
-  * [Demo](./exp1.md)
+  * [Tutorial](./exp1.md)
   * [Exercises](./exp1-assignment.md) (cs6456 students: refer to MS teams for your assignments instead)
 * **Exp2: Scalability** 
-  * [Demo](./exp2.md)
+  * [Tutorial](./exp2.md)
   * [Exercises](./exp2-assignment.md) (cs6456 students: refer to MS teams for your assignments instead)
 
 
